@@ -47,6 +47,7 @@ li{list-style: none;}
 .slick-list{margin: 0 -15px;}
 
 /* =================== for store-section ================== */
+.store-section{padding-bottom: 40px;}
 .inner-store{max-width: 732px;margin-inline: auto;text-align: center;}
 .inner-store h2{font-size: 60px;line-height: 64px;font-weight: 900;font-family: "Nokora", sans-serif;text-transform: uppercase;}
 .inner-store p{margin-top: 40px;}
