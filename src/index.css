@@ -1,0 +1,153 @@
+/* for nokora font  */
+@import url('https://fonts.googleapis.com/css2?family=Nokora:wght@100..900&display=swap');
+/* for inter font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* for figtree font  */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Nokora", sans-serif; */
+/* font-family: "Figtree", sans-serif; */
+
+*{margin: 0; padding: 0;box-sizing: border-box;}
+html,body{scroll-behavior: smooth;overflow-x: hidden;}
+body{background-color: black;color: white; font-family: "Inter", sans-serif;font-size: 20px;line-height: 28px;font-weight: 500;}
+a{text-decoration: none;display: inline-block;transition: all ease-in 0.3s;}
+.base-font{font-family: "Inter", sans-serif;font-size: 20px;line-height: 28px;font-weight: 500;}
+li{list-style: none;}
+
+.container{max-width: 1156px;margin-inline: auto;}
+.common-top-section-space{padding-top: 100px;}
+
+/* =================== for banner section ================== */
+.inner-banner{text-align: center;}
+.inner-banner h1{font-size: 80px;font-weight: 900;line-height: 76px;letter-spacing: -0.16px;text-transform: uppercase;font-family: "Nokora", sans-serif;}
+.inner-banner p{margin-top: 48px;max-width: 758px;margin-inline: auto;}
+.inner-banner .btn{color: white;margin-top: 48px;padding: 23px 34px;box-shadow: 0px 6px 0px 0px #001752;border-radius: 100px;background-color: #1654F3;border: 1px solid transparent;}
+.inner-banner .btn:hover{background-color: transparent;border: 1px solid #1654F3;color: #1654F3;box-shadow: none;}
+.inner-banner h6{margin-top: 20px;font-size: 15px;line-height: 22px;font-weight: 500;}
+
+/* =================== for testimonial-section ================== */
+.inner-testimonial .testimonial-card{max-width: 676px;display: flex;box-shadow: 0px 24px 48px -12px #2D34445C;background: #2D3444;border-radius: 16px;overflow: hidden;}
+.inner-testimonial .testimonial-card .tesimonial-video{width: 40%;}
+.inner-testimonial .testimonial-card .tesimonial-video a{width: 100%;height: 100%;;}
+.inner-testimonial .testimonial-card .tesimonial-video img{width: 100%;height: 100%;object-fit: cover;aspect-ratio: 273/381;}
+.inner-testimonial .testimonial-card .tesimonial-content{width: 60%;padding: 36px;display: flex;flex-direction: column;justify-content: space-between;}
+.inner-testimonial .testimonial-card .tesimonial-content .stars{display: flex;gap: 2px;align-items: center;list-style: none;}
+.inner-testimonial .testimonial-card .tesimonial-content .stars li{line-height: 0;}
+.inner-testimonial .testimonial-card .tesimonial-content .stars img{width: 20px;height: 20px;}
+.inner-testimonial .testimonial-card .tesimonial-content .testimonial-content-top p{font-size: 28px;line-height: 34px;font-weight: 700;font-style: italic;font-family: "Figtree", sans-serif;margin-top: 24px;}
+.inner-testimonial .testimonial-card .tesimonial-content .name-social-icon-wrap{display: flex;justify-content: space-between;align-items: center;padding-top: 24px;border-top: 2px solid #FFFFFF1F;}
+.inner-testimonial .testimonial-card .tesimonial-content .name-social-icon-wrap p{font-weight: 700;font-family: "Figtree", sans-serif;}
+.inner-testimonial .testimonial-card .tesimonial-content .name-social-icon-wrap .social-icon{display: flex;gap: 8px;align-items: center;list-style: none;}
+.inner-testimonial .testimonial-card .tesimonial-content .name-social-icon-wrap .social-icon a{width: 36px;height: 36px;border-radius: 50%;background-color: #FFFFFF1F;display: inline-flex;align-items: center;justify-content: center;}
+.inner-testimonial .testimonial-card .tesimonial-content .name-social-icon-wrap .social-icon a img{width: 18px;height: 18px;}
+.inner-testimonial .testimonial-card .tesimonial-content .name-social-icon-wrap .social-icon a:hover{background-color: #1654F3;}
+.slick-slide{margin: 0 15px;}
+.slick-list{margin: 0 -15px;}
+
+/* =================== for store-section ================== */
+.inner-store{max-width: 732px;margin-inline: auto;text-align: center;}
+.inner-store h2{font-size: 60px;line-height: 64px;font-weight: 900;font-family: "Nokora", sans-serif;text-transform: uppercase;}
+.inner-store p{margin-top: 40px;}
+.inner-store .btn-wrap{margin-top: 40px;display: inline-flex;gap: 20px;align-items: center;}
+.inner-store .btn-wrap a{display: inline-flex;align-items: center;gap: 6px;font-size: 15px;font-weight: 500;line-height: 22px;color: black;background-color: white;padding: 14px 32px;border-radius: 100px;border: 1px solid transparent;text-transform: capitalize;}
+.inner-store .btn-wrap a img{width: 20px;height: 20px;transition: all 0.3s ease;}
+.inner-store .btn-wrap a:hover{background-color: #1654F3;color: white;}
+.inner-store .btn-wrap a:hover img{filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(464%) hue-rotate(293deg) brightness(118%) contrast(100%);}
+
+
+
+@media (max-width: 1199px) {
+  .common-top-section-space{padding-top: 80px;}
+  .container{max-width: 960px;}
+
+  /* =================== for banner section ================== */
+  .inner-banner h1{font-size: 68px;line-height: 64px;}
+  .inner-banner p, .inner-banner .btn{margin-top: 40px;}
+  .inner-banner .btn{padding: 20px 32px;}
+
+  /* =================== for testimonial-section ================== */
+  .inner-testimonial .testimonial-card .tesimonial-content{padding: 32px;}
+  .inner-testimonial .testimonial-card .tesimonial-content .testimonial-content-top p{font-size: 26px;line-height: 32px;margin-top: 22px;}
+
+  /* =================== for store-section ================== */
+  .inner-store h2{font-size: 50px;line-height: 54px;}
+  .inner-store p, .inner-store .btn-wrap{margin-top: 36px;}
+}
+@media (max-width: 991px) {
+  .common-top-section-space{padding-top: 60px;}
+  body{font-size: 18px;line-height: 26px;}
+  .base-font{font-size: 18px;line-height: 26px;}
+  .container{max-width: 720px;}
+
+  /* =================== for banner section ================== */
+  .inner-banner h1{font-size: 56px;line-height: 52px;}
+  .inner-banner p, .inner-banner .btn{margin-top: 36px;}
+  .inner-banner .btn{padding: 18px 28px;}
+
+  /* =================== for testimonial-section ================== */
+  .inner-testimonial .testimonial-card{max-width: 600px;}
+  .inner-testimonial .testimonial-card .tesimonial-content{padding: 28px;}
+  .inner-testimonial .testimonial-card .tesimonial-content .testimonial-content-top p{font-size: 24px;line-height: 30px;margin-top: 20px;}
+  .inner-testimonial .testimonial-card .tesimonial-content .name-social-icon-wrap{padding-top: 20px;}
+  .slick-slide{margin: 0 10px;}
+  .slick-list{margin: 0 -10px;}
+
+  /* =================== for store-section ================== */
+  .inner-store h2{font-size: 40px;line-height: 44px;}
+  .inner-store p, .inner-store .btn-wrap{margin-top: 32px;}
+}
+@media (max-width: 767px) {
+  .common-top-section-space{padding-top: 40px;}
+  body{font-size: 16px;line-height: 24px;}
+  .base-font{font-size: 16px;line-height: 24px;}
+  .container{max-width: 540px;}
+
+  /* =================== for banner section ================== */
+  .inner-banner h1{font-size: 44px;line-height: 40px;}
+  .inner-banner p, .inner-banner .btn{margin-top: 28px;}
+  .inner-banner .btn{padding: 16px 24px;}
+
+  /* =================== for testimonial-section ================== */
+  .inner-testimonial .testimonial-card{max-width: 550px;}
+  .inner-testimonial .testimonial-card .tesimonial-content{padding: 24px;}
+  .inner-testimonial .testimonial-card .tesimonial-content .testimonial-content-top p{font-size: 22px;line-height: 28px;margin-top: 18px;}
+  .inner-testimonial .testimonial-card .tesimonial-content .name-social-icon-wrap{padding-top: 18px;}
+  .slick-slide{margin: 0 8px;}
+  .slick-list{margin: 0 -8px;}
+
+  /* =================== for store-section ================== */
+  .inner-store h2{font-size: 30px;line-height: 34px;}
+  .inner-store p, .inner-store .btn-wrap{margin-top: 28px;}
+}
+@media (max-width: 575px) {
+  .base-font{font-size: 14px;line-height: 22px;}
+  body{font-size: 14px;line-height: 22px;}
+  .container{padding-inline: 16px;}
+
+  /* =================== for banner section ================== */
+  .inner-banner h1{font-size: 24px;line-height: 22px;}
+  .inner-banner p{margin-top: 16px;}
+  .inner-banner .btn{padding: 14px 20px;margin-top: 24px;}
+  .inner-banner h6{font-size: 12px;line-height: 18px;}
+
+  /* =================== for testimonial-section ================== */
+  .inner-testimonial .testimonial-card{flex-direction: column;max-width: 350px;height: 100%;}
+  .inner-testimonial .testimonial-card .tesimonial-video{width: 100%;}
+  .inner-testimonial .testimonial-card .tesimonial-video img{aspect-ratio: 16/9;}
+  .inner-testimonial .testimonial-card .tesimonial-content{padding: 16px;width: 100%;gap: 16px;min-height: 242px;}
+  .inner-testimonial .testimonial-card .tesimonial-content .testimonial-content-top p{font-size: 20px;line-height: 26px;margin-top: 16px;}
+  .inner-testimonial .testimonial-card .tesimonial-content .name-social-icon-wrap{padding-top: 16px;}
+  .slick-slide{margin: 0 5px;}
+  .slick-list{margin: 0 -5px;}
+  .slick-track {display: flex !important;}
+  .slick-slide {height: auto !important;}
+  .slick-slide > div {height: 100% !important;}
+
+  /* =================== for store-section ================== */
+  .inner-store h2{font-size: 22px;line-height: 24px;}
+  .inner-store p, .inner-store .btn-wrap{margin-top: 16px;}
+  .inner-store .btn-wrap a{gap: 3px;font-size: 12px;line-height: 18px;padding: 12px 20px;}
+  .inner-store .btn-wrap a img{width: 16px;height: 16px;}
+}
